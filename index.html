@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="./style.css">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="title1">Brand name</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="title2">Dash Board</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="title3">Customers</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="title4">Messages</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="title5">setting</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="toggle"></div>
+    <div class="work1">dsafdasf</div>
+    <div class="work2">ddd</div>
+    <div class="work3">ccc</div>
+    <div class="work4">sss</div>
+    <div class="work5">aaaa</div>
+    
+    <script>
+        const navigation = document.querySelector('.navigation')
+        const toggle = document.querySelector('.toggle')
+
+        toggle.onclick = function(){
+            navigation.classList.toggle('active')
+        }
+
+        const title1 = document.querySelector('.title1')
+        const title2 = document.querySelector('.title2')
+        const title3 = document.querySelector('.title3')
+        const title4 = document.querySelector('.title4')
+        const title5 = document.querySelector('.title5')
+
+        const work1 = document.querySelector('.work1')
+        const work2 = document.querySelector('.work2')
+        const work3 = document.querySelector('.work3')
+        const work4 = document.querySelector('.work4')
+        const work5 = document.querySelector('.work5')
+
+
+        title1.onclick = function(){
+            work1.classList.toggle('active')
+        }
+        title2.onclick = function(){
+            work2.classList.toggle('active')
+        }
+        title3.onclick = function(){
+            work3.classList.toggle('active')
+        }
+        title4.onclick = function(){
+            work4.classList.toggle('active')
+        }
+        title5.onclick = function(){
+            work5.classList.toggle('active')
+        }
+
+        if(title1 = onclick){
+        }
+    </script>
+</body>
+</html>
